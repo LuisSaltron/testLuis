@@ -1,0 +1,17 @@
+package ball.test;
+
+public class Ball {
+	private float volume;
+	private float radio;
+	private String color;
+	private boolean owner;
+	
+	public Ball(){
+	}
+	
+	public float getDiameter(){
+		float diameter;
+		diameter=radio*2;
+		return diameter;
+	}
+}

@@ -1,0 +1,26 @@
+package ball.test;
+
+public class Ball {
+	private float volume;
+	private float radio;
+	private String color;
+	private boolean owner;
+	
+	public Ball(){
+		this.radio=1.3f;
+	}
+	
+	public Ball(float radio){
+		this.radio=radio;
+	}
+	
+	public void changeRadio(float newRadio){
+		this.radio=newRadio;
+	}
+	
+	public float getDiameter(){
+		float diameter;
+		diameter=radio*2;
+		return diameter;
+	}
+}
