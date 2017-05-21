@@ -1,0 +1,22 @@
+package ball.test;
+
+public class MainBall {
+
+	public static void main(String[] args) {
+		testBall1();
+	}
+	
+	public static void testBall1(){
+		Ball ball1=new Ball();
+		float diameter=ball1.getDiameter();
+		System.out.println(diameter);
+		
+		Ball ball2=new Ball(5.5f);
+		diameter=ball2.getDiameter();
+		System.out.println(diameter);
+		
+		ball1.changeRadio(3.4f);
+		diameter=ball1.getDiameter();
+		System.out.println(diameter);
+	}
+}

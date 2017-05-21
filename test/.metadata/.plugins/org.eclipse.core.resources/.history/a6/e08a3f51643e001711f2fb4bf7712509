@@ -1,0 +1,11 @@
+package ball.test;
+
+public class MainBall {
+
+	public static void main(String[] args) {
+		Ball ball1=new Ball();
+		float diameter=ball1.getDiameter();
+		System.out.println(diameter);
+	}
+
+}
