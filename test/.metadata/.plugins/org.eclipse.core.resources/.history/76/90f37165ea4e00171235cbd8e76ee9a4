@@ -1,0 +1,20 @@
+package ejercicio.electrodomesticos;
+
+public class Television extends Electrodomestico {
+	private double resolucion;
+	private boolean tdt;
+	
+	public Television(){
+		super();
+		this.resolucion=Constants.RESOLUCION_TV;
+		this.tdt=Constants.TDT_TV;
+	}
+
+	public Television(double price, double peso) {
+		super(price,peso);
+		this.resolucion = resolucion;
+		this.tdt = tdt;
+	}
+	
+	
+}

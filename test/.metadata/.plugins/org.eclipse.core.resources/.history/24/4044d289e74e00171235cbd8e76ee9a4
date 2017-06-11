@@ -1,0 +1,10 @@
+package ejercicio.electrodomesticos;
+
+public class Lavadora extends Electrodomestico{
+	private double carga;
+	
+	public Lavadora(){
+		super(); //llamando al constructor por defecto de la clase padre
+		
+	}
+}

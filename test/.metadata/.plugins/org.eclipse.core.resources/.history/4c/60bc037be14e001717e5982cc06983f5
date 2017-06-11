@@ -1,0 +1,23 @@
+package ejercicio.electrodomesticos;
+
+public class Electrodomestico {
+	
+	public static double BASE_PRICE=100;
+	public static double DEFAULT_PESO=5;
+	public static String DEFAULT_COLOR="Blanco";
+	public static String DEFAULT_CONSUMO="F";
+	
+	protected double price;
+	protected double peso;
+	protected String color;
+	protected String consumo;
+	
+	public Electrodomestico() {
+		this.price = BASE_PRICE;
+		this.color = DEFAULT_COLOR;
+		this.consumo = DEFAULT_CONSUMO;
+	}
+	
+	
+	
+}
