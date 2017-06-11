@@ -1,0 +1,17 @@
+package Interface.test;
+
+public class Kid implements IPerson {
+
+	@Override
+	public String saludo(String name) {
+		
+		return "Hoa ".concat(name);
+	}
+
+	@Override
+	public PersonEnum personType() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

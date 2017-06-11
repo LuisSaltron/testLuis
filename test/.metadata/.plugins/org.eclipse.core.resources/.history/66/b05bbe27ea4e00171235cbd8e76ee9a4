@@ -1,0 +1,8 @@
+package ejercicio.electrodomesticos;
+
+public class Television extends Electrodomestico {
+	private double resolucion;
+	private boolean tdt;
+	
+	public Tele
+}

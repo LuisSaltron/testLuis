@@ -1,0 +1,9 @@
+package ejercicio.electrodomesticos;
+
+public class Lavadora extends Electrodomestico{
+	private double carga;
+	
+	public Lavadora(){
+		super();
+	}
+}

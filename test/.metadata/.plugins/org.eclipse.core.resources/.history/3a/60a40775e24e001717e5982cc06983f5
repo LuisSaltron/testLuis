@@ -1,0 +1,33 @@
+package ejercicio.electrodomesticos;
+
+public class Electrodomestico {
+	//definicion de constantes
+	public static final double BASE_PRICE=100;
+	public static final double DEFAULT_PESO=5;
+	public static final String DEFAULT_COLOR="Blanco";
+	public static final String DEFAULT_CONSUMO="F";
+	
+	//atributos heredables
+	protected double price;
+	protected double peso;
+	protected String color;
+	protected String consumo;
+	
+	//constructor por defecto donde se asignan valores
+	public Electrodomestico() {
+		this.price = BASE_PRICE;
+		this.color = DEFAULT_COLOR;
+		this.consumo = DEFAULT_CONSUMO;
+		this.peso=DEFAULT_PESO;
+	}
+	
+	public Electrodomestico(double price, double peso){
+		this.color = DEFAULT_COLOR;
+		this.price=price;
+		this.peso=peso;
+		this.consumo = DEFAULT_CONSUMO;
+	}
+	
+	
+	
+}

@@ -2,7 +2,7 @@ package ball.test;
 
 public class Ball {
 	private float volume;
-	private float radio;
+	protected float radio;
 	private String color;
 	private boolean owner;
 	
@@ -49,4 +49,12 @@ public class Ball {
 		return this.owner;
 	}
 	
+	public void printBall(){
+		System.out.println("Diametro: "+this.getDiameter());
+		System.out.println("Radio: "+this.radio);
+		System.out.println("Color: "+this.color);
+		System.out.println("¿Tiene dueño?: "+this.owner);
+	}
 }
+
+

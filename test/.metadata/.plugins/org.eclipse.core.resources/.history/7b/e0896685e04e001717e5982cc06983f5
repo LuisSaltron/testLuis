@@ -1,0 +1,7 @@
+package ejercicio.electrodomesticos;
+
+public class Electrodomestico {
+	protected double price;
+	protected double color;
+	
+}

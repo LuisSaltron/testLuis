@@ -1,0 +1,31 @@
+package Interface.test;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+	}
+
+	public static List<IPerson> createPersonList(){
+		List<IPerson> personList=new ArrayList<IPerson>();
+		personList.add(new Kid());
+		personList.add(new Teenager());
+		personList.add(new Adult());
+		personList.add(new IPerson() {
+			
+			@Override
+			public String saludo(String name) {
+				return "Soy un extrano".concat(name);
+			}
+			
+			@Override
+			public PersonEnum personType() {
+				return PersonEnum.ADULT;
+			}
+		});
+		return personList;
+	}
+}

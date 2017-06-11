@@ -1,0 +1,14 @@
+package main;
+
+public class MainConditions {
+
+	public static void main(String[] args) {
+		
+	}
+	
+	public int compareNumbers(int num1, int num2, int num3){
+		
+		return 0;
+	}
+
+}

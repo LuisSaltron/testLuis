@@ -1,0 +1,17 @@
+package ejercicio.electrodomesticos;
+
+public class Constants {
+	public static final String CONSUMO_A="A";
+	public static final String CONSUMO_B="B";
+	public static final String CONSUMO_C="C";
+	public static final String CONSUMO_D="D";
+	public static final String CONSUMO_E="E";
+	public static final String CONSUMO_F="F";
+	
+	public static final double PRICE_CONSUMO_A=100;
+	public static final double PRICE_CONSUMO_B=80;
+	public static final double PRICE_CONSUMO_C=60;
+	public static final double PRICE_CONSUMO_D=50;
+	public static final double PRICE_CONSUMO_E=30;
+	public static final double PRICE_CONSUMO_F=10;
+}

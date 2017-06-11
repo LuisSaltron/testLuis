@@ -1,10 +1,11 @@
 package ball.test;
-
+//el main se usa para correr el programa
 public class MainBall {
 
 	public static void main(String[] args) {
 		testBall1();
 		testBall2();
+		testBall3();
 	}
 	
 	public static void testBall1(){
@@ -37,12 +38,16 @@ public class MainBall {
 		printSeparator("FIN TEST");
 	}
 	
+	public static void testBall3(){
+		printSeparator("TEST3");
+		BasketBall ball1=new BasketBall(4.5f,true);
+		printBall(ball1);
+		printSeparator("FIN TEST3");
+	}
+	
 	public static void printBall(Ball ball){
 		printSeparator("BOLA");
-		System.out.println("Diametro: "+ball.getDiameter());
-		System.out.println("Radio: "+ball.getRadio());
-		System.out.println("Color: "+ball.getColor());
-		System.out.println("¿Tiene dueño?: "+ball.getOwner());
+		ball.printBall();
 		printSeparator("FIN BOLA");
 	}
 	
