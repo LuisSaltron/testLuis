@@ -25,7 +25,7 @@ public class MainConditions {
 		List<Integer> list=new ArrayList<>();
 		list.add(3);
 		list.add(10);
-		list.add(40);
+		list.add(60);
 		list.add(2);
 		System.out.println(compareGreaterList(list));
 		Collections.sort(list);

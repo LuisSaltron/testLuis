@@ -1,6 +1,0 @@
-package ejercicio.electrodomesticos;
-
-public class Telivision extends Electrodomestico {
-	private double resolucion;
-	private boolean tdt;
-}

@@ -1,5 +1,0 @@
-package Interface.test;
-
-public enum PersonEnum {
-
-}

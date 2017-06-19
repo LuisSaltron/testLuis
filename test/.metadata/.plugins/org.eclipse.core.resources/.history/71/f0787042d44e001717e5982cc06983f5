@@ -1,8 +1,0 @@
-package ejemplo.cuenta;
-
-public class Cuenta {
-	private double cantidad;
-	private String titular;
-	
-	
-}

@@ -8,8 +8,10 @@
 <fullyQualifiedTypeName name="java.util.Comparator"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="Interface.test.PersonEnum"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="Interface.test.Adult"/>
 <fullyQualifiedTypeName name="Interface.test.IPerson"/>
+<fullyQualifiedTypeName name="ejercicio.electrodomesticos.Television"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="ejercicio.electrodomesticos.Electrodomestico"/>
 </qualifiedTypeNameHistroy>
