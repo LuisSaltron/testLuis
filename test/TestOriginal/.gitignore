@@ -1,9 +1,12 @@
 *.pydevproject
 .project
-test/.metadata/**
+test/.metadata/*
+test/.metadata/
 bin/**
 tmp/**
 tmp/**/*
+*.ini
+*.log
 *.tmp
 *.bak
 *.swp
