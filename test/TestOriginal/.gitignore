@@ -1,6 +1,6 @@
 *.pydevproject
 .project
-.metadata
+/home/luis/Programacion_Android/java_repos/testLuis.git/test/.metadata/
 bin/**
 tmp/**
 tmp/**/*
