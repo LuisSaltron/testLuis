@@ -8,6 +8,8 @@ tmp/**/*
 *.ini
 *.log
 *.tmp
+*.xml
+*.zip
 *.bak
 *.swp
 *~.nib
