@@ -20,7 +20,7 @@ public class MainInputs {
 		System.out.println("Ingrese la cantidad a retirar");
 		cantidad=scan.nextFloat();
 	
-		cuenta=new Cuenta(titular,3000);
+		cuenta=new Cuenta(titular,saldoInicial);
 		System.out.println("El titular es:"+cuenta.getTitular());
 		saldoCuenta=cuenta.Ingresar(cantidad);
 		System.out.println("EL saldo de su cuenta es: "+saldoCuenta);
