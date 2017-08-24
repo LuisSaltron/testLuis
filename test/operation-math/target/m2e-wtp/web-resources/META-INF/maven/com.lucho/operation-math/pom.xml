@@ -1,13 +1,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.lucho</groupId>
-  <artifactId>operation-math</artifactId>
-  <packaging>war</packaging>
-  <version>0.0.1-SNAPSHOT</version>
-  <name>operation-math Maven Webapp</name>
-  <url>http://maven.apache.org</url>
-  <properties>
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.lucho</groupId>
+	<artifactId>operation-math</artifactId>
+	<packaging>war</packaging>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>operation-math Maven Webapp</name>
+	<url>http://maven.apache.org</url>
+	<properties>
 		<springframework.version>
 			4.3.9.RELEASE
 		</springframework.version>
@@ -74,7 +74,7 @@
 			<version>5.1.40</version>
 		</dependency>
 	</dependencies>
-  <build>
-    <finalName>operation-math</finalName>
-  </build>
+	<build>
+		<finalName>operation-math</finalName>
+	</build>
 </project>
