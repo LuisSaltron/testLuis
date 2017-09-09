@@ -70,11 +70,11 @@ public class MainVideoClub {
 
 	public static void printGreaterVideo(List<VideoGame> list) {
 
-		Collections.sort(list,new Comparator<VideoGame>() {
+		Collections.sort(list, new Comparator<VideoGame>() {
 
-		    public int compare(VideoGame o1, VideoGame o2) {
-		        return Double.compare(o2.getExpectedTime(), o1.getExpectedTime());
-		    }
+			public int compare(VideoGame o1, VideoGame o2) {
+				return Double.compare(o2.getExpectedTime(), o1.getExpectedTime());
+			}
 		});
 		System.out.println("El video con mayor cantidad de horas es: " + list.get(0).getTitle());
 
