@@ -2,10 +2,6 @@ package exercises5_videoclub;
 
 public class Series implements Deliver {
 
-	static final int MINOR = -1;
-	static final int GREATER = 1;
-	static final int EQUAL = 0;
-
 	private String title;
 	private int seasonNum;
 	private String genre;
